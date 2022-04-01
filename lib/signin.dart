@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:oow/code%20page.dart';
 import 'package:oow/signup.dart';
 
@@ -69,8 +70,9 @@ class signin extends StatelessWidget {
                     onPressed: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => signup()),
+                        MaterialPageRoute(builder: (context) => SignUp()),
                       );
+                      // Navigator.pushNamed(context, '/SignUp');
                     },
                   ),
                 ),

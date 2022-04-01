@@ -1,0 +1,178 @@
+// Row(
+              //   children: [
+              //     SizedBox(
+              //       height: 150,
+              //       width: 30,
+              //     ),
+              //     Container(
+              //       child: Text('or'),
+              //     ),
+              //     SizedBox(
+              //       width: 5,
+              //     ),
+              //     Container(
+              //       child: Text(
+              //         'Join With',
+              //         style: TextStyle(fontWeight: FontWeight.w800, fontSize: 15),
+              //       ),
+              //     ),
+              //   ],
+              // ),
+              // Row(
+              //   mainAxisAlignment: MainAxisAlignment.spaceAround,
+              //   children: [
+              //     ElevatedButton(
+              //         child: Text('FACEBOOKS'),
+              //         onPressed: () {},
+              //         // style: ButtonStyle(color:Color.),
+              //         style: ButtonStyle(
+              //             backgroundColor:
+              //                 MaterialStateProperty.all<Color>(Colors.blue),
+              //             shape:
+              //                 MaterialStateProperty.all<RoundedRectangleBorder>(
+              //                     RoundedRectangleBorder(
+              //                         borderRadius: BorderRadius.circular(18.0),
+              //                         side: BorderSide(color: Colors.blue))))),
+              //     ElevatedButton(
+              //         child: Text('GOOGLE'),
+              //         onPressed: () {},
+              //         // style: ButtonStyle(color:Color.),
+              //         style: ButtonStyle(
+              //             backgroundColor:
+              //                 MaterialStateProperty.all<Color>(Colors.red),
+              //             shape:
+              //                 MaterialStateProperty.all<RoundedRectangleBorder>(
+              //                     RoundedRectangleBorder(
+              //                         borderRadius: BorderRadius.circular(18.0),
+              //                         side: BorderSide(color: Colors.red))))),
+              //   ],
+              // ),
+
+
+
+              // Container(
+                          //   child: Text(
+                          //     'FORGOT PASSWORD?',
+                          //     style: TextStyle(
+                          //         fontWeight: FontWeight.bold,
+                          //         color: Colors.blue),
+                          //   ),
+                          // ),
+                          // Container(
+                          //   child: Text(
+                          //     'REGISTER NOW',
+                          //     style: TextStyle(
+                          //         fontWeight: FontWeight.bold,
+                          //         color: Colors.orange),
+                          //   ),
+                          // ),
+
+                          // SizedBox(
+                      //   height: 20,
+                      // ),
+                      // Container(
+                      //   width: 260,
+                      //   child: TextFormField(
+                      //                       validator: (value) {
+                      //   if (value == null || value.isEmpty) {
+                      //     return 'Please enter some text';
+                      //   }
+                      //   return null;
+                      // },
+                      //     decoration: InputDecoration(
+                      //       // label: Text('EMAIL'),
+                      //       hintText: 'enter your email',
+                      //       // border: OutlineInputBorder(borderSide: BorderSide.mer),
+                      //     ),
+                      //   ),
+                      // ),
+                      // SizedBox(
+                      //   height: 20,
+                      // ),
+                      // Container(
+                      //   width: 260,
+                      //   child: Text(
+                      //     'PASSWORD',
+                      //     style: TextStyle(
+                      //         fontSize: 12,
+                      //         fontWeight: FontWeight.bold,
+                      //         color: Colors.blue),
+                      //   ),
+                      // ),
+                      // // SizedBox(
+                      // //   height: 20,
+                      // // ),
+                      // Container(
+                      //   width: 260,
+                      //   child: TextFormField(
+                      //                       validator: (value) {
+                      //   if (value == null || value.isEmpty) {
+                      //     return 'Please enter some text';
+                      //   }
+                      //   return null;
+                      // },
+                      //     decoration: InputDecoration(
+                      //       // label: Text('EMAIL'),
+                      //       hintText: 'enter your password',
+                      //       hintStyle: TextStyle(
+                      //           fontWeight: FontWeight.w400, fontSize: 15),
+                      //       // border: OutlineInputBorder(borderSide: BorderSide.mer),
+                      //     ),
+                      //   ),
+                      // ),
+
+                      // Row(
+              //   children: [
+              //     Container(
+              //       margin: EdgeInsets.fromLTRB(30, 50, 0, 0),
+              //       child: MaterialButton(
+              //         onPressed: () {
+              //           Navigator.pop(
+              //             context,
+              //             MaterialPageRoute(builder: (context) => signin()),
+              //           );
+              //         },
+              //         child: Text(
+              //           'Login',
+              //           style: TextStyle(
+              //             fontSize: 20,
+              //             fontWeight: FontWeight.bold,
+              //             color: Colors.grey.shade500,
+              //           ),
+              //         ),
+              //       ),
+              //     ),
+              //     Column(
+              //       children: [
+              //         Container(
+              //           margin: EdgeInsets.fromLTRB(20, 50, 0, 0),
+              //           child: MaterialButton(
+              //             child: Text(
+              //               'Sign UP',
+              //               style: TextStyle(
+              //                 fontSize: 20,
+              //                 fontWeight: FontWeight.bold,
+              //                 // color: Colors.grey.shade500
+              //               ),
+              //             ),
+              //             onPressed: () {
+              //               Navigator.push(
+              //                 context,
+              //                 MaterialPageRoute(builder: (context) => signup()),
+              //               );
+              //             },
+              //           ),
+              //         ),
+              //         SizedBox(
+              //           height: 4,
+              //         ),
+              //         Container(
+              //           margin: EdgeInsets.fromLTRB(30, 0, 0, 0),
+              //           height: 3,
+              //           width: 60,
+              //           decoration: BoxDecoration(color: Colors.blue),
+              //         ),
+              //       ],
+              //     ),
+              //   ],
+              // ),

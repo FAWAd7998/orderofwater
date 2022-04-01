@@ -36,6 +36,33 @@
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
+       <!-- update the version number as needed -->
+    <script defer src="/__/firebase/9.6.10/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/9.6.10/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/9.6.10/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/9.6.10/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/9.6.10/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/9.6.10/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/9.6.10/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/9.6.10/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/9.6.10/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/9.6.10/firebase-performance-compat.js"></script>
+    <script type="module">
+      const firebaseConfig = {
+        apiKey: "AIzaSyC0qwoOmwFXZoGbou_0UYIB6sllKoZDX1A",
+        authDomain: "orderofwater-69afd.firebaseapp.com",
+        projectId: "orderofwater-69afd",
+        storageBucket: "orderofwater-69afd.appspot.com",
+        messagingSenderId: "1060050637001",
+        appId: "1:1060050637001:web:918db727d1caec97bf3d18",
+        measurementId: "G-BKEQRE3T1H"
+      };
+    
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+
+    </script>
   <script>
     var serviceWorkerVersion = null;
     var scriptLoaded = false;
